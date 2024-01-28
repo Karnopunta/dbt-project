@@ -1,0 +1,12 @@
+dbt_project:
+  target: dev
+  outputs:
+    dev:
+      user: ingest
+      password: ingest
+      dbname: ingest
+      host: host.docker.internal
+      port: 5445
+      schema: public
+      threads: 1
+      type: postgres

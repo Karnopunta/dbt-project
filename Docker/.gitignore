@@ -1,0 +1,5 @@
+config/
+metabase-data
+logs/
+plugins/
+dags/__pycache__
